@@ -117,7 +117,7 @@ def get_ips(api_url, stype)->bool:
 
 
 def main():
-	env_list = ["lab","prod","prod2", "prod3", "prod4", "prod5", "prod6","lab"]
+	env_list = ["lab","prod","prod2", "prod3", "prod4", "prod5", "prod6", "prod7"]
 	correct_url = ""
 	for env in env_list:
 		print("Testing Enviroment: "+ env)
