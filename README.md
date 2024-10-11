@@ -12,3 +12,10 @@ Prisma Access does not provision these IP addresses until after you complete you
 The API uses an API key that you obtain from the Prisma Access management UI, either Panorama or Strata Cloud Manager based. 
 
 ## How to obtain the API key in a Panaroma based Prisma Access managed tenant.
+
+1. Login Panaroma UI with administrative user. Click in "Panorama"
+2. Click in "Cloud Services" -> "Configuration".
+3. Click in "Generate API Key"
+
+![image alt text](images/scr01.png)
+
