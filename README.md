@@ -10,3 +10,5 @@ limit inbound access to enterprise applications, you should understand what thes
 
 Prisma Access does not provision these IP addresses until after you complete your Prisma Access configuration and this configuration is commited. After your deployment is complete, can you retrieve these IP addresses using an API. 
 The API uses an API key that you obtain from the Prisma Access management UI, either Panorama or Strata Cloud Manager based. 
+
+## How to obtain the API key in a Panaroma based Prisma Access managed tenant.
