@@ -10,6 +10,28 @@ limit inbound access to enterprise applications, you should understand what thes
 Prisma Access does not provision these IP addresses until after you complete your Prisma Access configuration and this configuration is commited. After your deployment is complete, can you retrieve these IP addresses using an API. 
 The API uses an API key that you obtain from the Prisma Access management UI, either Panorama or Strata Cloud Manager based. 
 
+## Enviroment requirements
+1. Recommended virtualization enviroment: Docker Engine (Optional)
+2. Recommended OS: Ubuntu 22.04 (Optional)
+3. Python 3
+4. Python module Requests
+5. Git
+
+## How to install Docker Engine
+[Install Docker Engine - Windows/MAC/Linux](https://docs.docker.com/engine/install/)
+
+
+## Quick docker enviroment setup option
+```
+# docker run -it ubuntu:22.04 /bin/bash
+root@0a5c85a9ad75:~# apt update
+root@0a5c85a9ad75:~# apt install -y  git
+root@0a5c85a9ad75:~# apt-get install -y python3
+root@0a5c85a9ad75:~# apt install -y python3-dev
+root@0a5c85a9ad75:~# python3-pip
+root@0a5c85a9ad75:~# pip3 install requests
+```
+
 ## How to obtain the API key in a Panaroma based Prisma Access managed tenant.
 
 1. Login Panaroma UI with administrative user. Click in `Panorama`
